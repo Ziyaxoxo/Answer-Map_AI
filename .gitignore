@@ -1,0 +1,21 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Environment variables (CRITICAL: DO NOT COMMIT REAL API KEYS)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+dist
+build
+*.log
+
+# Editor & OS files
+.vscode
+.idea
+.DS_Store
+Thumbs.db
